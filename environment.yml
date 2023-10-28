@@ -1,0 +1,15 @@
+name: jax
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.*
+  - jupyterlab
+  - matplotlib=3.8.*
+  - pip
+  - pip:
+    - jax[cpu]~=0.4.19
+    - flax~=0.7.4
+    - clu~=0.0.10
+    - tensorflow>=2.13
+    - tensorflow_datasets>=4.9.3
+
